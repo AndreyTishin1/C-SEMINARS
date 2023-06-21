@@ -1,8 +1,11 @@
-﻿Console.WriteLine("Введите число: ");
+﻿Console.WriteLine("Введите число, которое будем делить: ");
 int number = int.Parse(Console.ReadLine());
 
-int per1 = 7;
-int per2 = 23;
+Console.WriteLine("Введите первое число, на которое будем делить: ");
+int per1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите второе число, на которое будем делить: ");
+int per2 = int.Parse(Console.ReadLine());
 
 if (number % per1 == 0 && number % per2 == 0)
 {
