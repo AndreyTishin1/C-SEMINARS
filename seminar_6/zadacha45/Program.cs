@@ -20,3 +20,4 @@ for (int j = 0; j < array2.Length; j++)
 Console.Write(array[j] + " ");
 }
 
+
